@@ -14,6 +14,7 @@ body {
 h2,
 h3 {
     font-weight: 300;
+    font-size: 4vw;
 }
 
 .the-Container {
@@ -50,7 +51,7 @@ main {
 }
 
 .MCGrid {
-    margin : auto 100px;
+    margin : auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 10px;
@@ -95,7 +96,6 @@ RESPONSIVE
         /* Footer */
 >>>>>>> Stashed changes
     }
-
     .MCGrid {
         margin:auto 10px;
         grid-template-columns: 1fr;
