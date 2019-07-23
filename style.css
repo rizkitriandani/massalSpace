@@ -53,16 +53,13 @@ main {
     margin : auto 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 
-.item-Card {
-    background: grey;
-    border: solid red;
-    height: 250px;
-    width:250px;
-    margin:10px;
-
+.content-Item img {
+    width: 100% ;
 }
 
 footer {
@@ -100,6 +97,7 @@ RESPONSIVE
     }
 
     .MCGrid {
+        margin:auto 10px;
         grid-template-columns: 1fr;
     }
 }
