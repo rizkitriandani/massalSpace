@@ -86,9 +86,18 @@ RESPONSIVE
 
         grid-template-columns: 1fr;
         grid-template-rows:
+<<<<<<< Updated upstream
             auto /* Header */
             1fr  /* Content */
             auto; /* Footer */
+=======
+            auto
+            /* Header */
+            1fr
+            /* Content */
+            auto;
+        /* Footer */
+>>>>>>> Stashed changes
     }
 
     .MCGrid {
