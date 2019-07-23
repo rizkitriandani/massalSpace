@@ -25,11 +25,12 @@ h3 {
         "content content content"
         "footer footer footer";
 
-    grid-template-columns: 200px 1fr 200px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr auto;
     grid-gap: 10px;
 
     height: 100vh;
+    width: 100vw;
 }
 
 header {
@@ -50,9 +51,8 @@ main {
 
 .MCGrid {
     margin : auto 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
@@ -68,7 +68,6 @@ main {
 footer {
     grid-area: footer;
     border: solid 2px black;
-    text-align: center;
 }
 
 
@@ -88,7 +87,7 @@ RESPONSIVE
         grid-template-rows:
 <<<<<<< Updated upstream
             auto /* Header */
-            1fr  /* Content */
+            1fr /* Content */
             auto; /* Footer */
 =======
             auto
@@ -102,10 +101,5 @@ RESPONSIVE
 
     .MCGrid {
         grid-template-columns: 1fr;
-    }
-
-    nav,
-    aside {
-        margin: 0;
     }
 }
